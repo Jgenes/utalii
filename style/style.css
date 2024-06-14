@@ -1,0 +1,35 @@
+body{
+    padding: 20px;
+}
+input{
+    height: 45px;
+}
+.h2{
+    font-weight: 700;
+    color: #32a852;
+}
+#form1{
+    position: relative;
+    top: 40px;
+}
+#btnLogin{
+    background-color: #32a852;
+    color: white;
+}
+.form-group a{
+    text-decoration: none;
+    color: #6f7571;
+}
+.form-group a:hover{
+    color: #32a852;
+    text-decoration: underline;
+    font-weight: 600;
+}
+label{
+    color: #6f7571;
+}
+.fg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
