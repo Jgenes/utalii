@@ -1,6 +1,1 @@
-var button = document.getElementById('hoverme');
-var slideout = document.getElementById('notif');
-
-button.onclick = function() {
-  slideout.classList.toggle('visible');
-};
+Math.floor(Math.random()*90000) + 10000;
