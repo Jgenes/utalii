@@ -11248,3 +11248,9 @@ body {
 nav{
   background-color: #32a852;
 }
+.fa-angle-down{
+  color: white;
+}
+.sb-sidenav-menu-nested a{
+  color: white;
+}
