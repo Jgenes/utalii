@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.name }}!</h1>
+    <p>Your user ID is: {{ user.id }}</p>
+    <p>Your email is: {{ user.email }}</p>
+    <!-- Additional user-specific content can go here -->
+    <a href="{% url 'verify_account' %}">Verify Account</a>
+
+</body>
+</html>

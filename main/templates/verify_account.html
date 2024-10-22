@@ -1,0 +1,18 @@
+
+
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="operator_name">Operator Name:</label>
+    <input type="text" id="operator_name" name="operator_name" required><br>
+
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url" required><br>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required></textarea><br>
+
+    <label for="files">Upload Files:</label>
+    <input type="file" id="files" name="files" multiple required><br>
+
+    <button type="submit">Submit</button>
+</form>
