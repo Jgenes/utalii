@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wiad+3&0qa5k987ubnp)^#rpf#xf1j72)xon-(gb6b@*p#*0)n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [Ngutu.pythonanywhere.com]
+ALLOWED_HOSTS = ['tourTanzania.pythonanywhere.com']
 
 
 # Application definition
